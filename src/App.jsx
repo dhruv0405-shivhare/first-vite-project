@@ -1,6 +1,7 @@
 
 import { createElement } from 'react'
  import './App.css'
+ import Event from './Event.jsx'
 
 function App() {
   let a = "the_dark_xone"
@@ -10,11 +11,7 @@ function App() {
   }
   return (
     <>
-    <h1> {a} </h1>
-
-    <h2>{ob.fname}</h2>
-    
-    <h3>{ob.age}</h3>
+    <Event />
     </>
   )
 }
