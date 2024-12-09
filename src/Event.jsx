@@ -20,7 +20,9 @@ const Event = () =>{
 
     return(
         <>
-        <button onClick={cl}>Click here</button> <br />
+        <button onClick={cl}>Click here</button>
+         <br />
+         <button onClick={()=>alert("inline event")}>Click now</button>
         <button onDoubleClick={click}> double click </button>
         <div id="container" onMouseEnter={change} onMouseLeave={change1}>
 
