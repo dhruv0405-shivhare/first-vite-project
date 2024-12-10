@@ -1,7 +1,8 @@
-const Child2 = (props) => {
+const Child2 = ({fname,lastname}) => {
+    //{fname,lastname}=props
     return(
         <>
-         <h1>From Child 2 {props.fname}</h1>        
+         <h1>From Child 2 {fname} {lastname}</h1>        
         </>
     )
 }
